@@ -1,0 +1,165 @@
+/*
+Student Name: Jazmin Smith
+Date: October 20, 2026
+File Name: styles.css
+*/
+
+/* CSS Reset: remove default browser spacing and standardize box sizing. */
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+/* Responsive images */
+img {
+    max-width: 100%;
+    display: block;
+    height: auto;
+}
+
+/* Body and page-wide styles */
+body {
+    background-color: #417589;
+    color: #0F252E;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+}
+
+header {
+    padding: 2%;
+    text-align: center;
+    color: #e3eef2;
+    background-color: #213B45;
+}
+
+header h1 {
+    font-size: 2.5em;
+    letter-spacing: 0.04em;
+}
+
+header h3 {
+    font-size: 1.25em;
+    font-style: italic;
+    font-weight: normal;
+}
+
+/* Navigation styles */
+nav {
+    background-color: #213B45;
+    border-top: 1px solid #e3eef2;
+}
+
+nav ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+nav li {
+    display: inline-block;
+    font-size: 1.15em;
+}
+
+nav li a {
+    display: block;
+    padding: 0.75em 1em;
+    color: #e3eef2;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav li a:hover,
+nav li a:focus {
+    background-color: #e3eef2;
+    color: #213B45;
+}
+
+.hero img {
+    width: 100%;
+    max-height: 340px;
+    object-fit: cover;
+}
+
+/* Style rules for main content */
+main {
+    padding: 2%;
+    background-color: #e3eef2;
+    font-family: Georgia, Times, serif;
+}
+
+main h2 {
+    color: #213B45;
+    margin: 0.75em 0 0.4em;
+}
+
+main p {
+    font-size: 1.25em;
+    color: #0F252E;
+    margin-bottom: 1em;
+}
+
+main a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #417589;
+}
+
+main a:hover,
+main a:focus {
+    text-decoration: underline;
+}
+
+main ul {
+    list-style-type: square;
+    font-size: 1.15em;
+    margin: 0 0 1em 2em;
+}
+
+#intro img {
+    margin: 1em auto;
+}
+
+.action {
+    color: #213B45;
+    font-weight: bold;
+    font-style: italic;
+}
+
+/* Footer styles */
+footer {
+    padding: 2%;
+    text-align: center;
+    color: #e3eef2;
+    background-color: #213B45;
+    font-size: 0.9em;
+}
+
+footer a {
+    color: #e3eef2;
+    text-decoration: none;
+}
+
+footer a:hover,
+footer a:focus {
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 600px) {
+    header h1 {
+        font-size: 1.8em;
+    }
+
+    nav li {
+        display: block;
+        border-top: 1px solid #417589;
+    }
+
+    nav li a {
+        padding: 0.6em;
+    }
+
+    main p {
+        font-size: 1.1em;
+    }
+}
